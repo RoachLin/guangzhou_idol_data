@@ -1,0 +1,34 @@
+{
+  "name": "guangzhou_idol",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "format": "oxfmt src/"
+  },
+  "dependencies": {
+    "pinia": "latest",
+    "vue": "beta",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "latest",
+    "@types/node": "^24",
+    "@vitejs/plugin-vue": "latest",
+    "@vue/tsconfig": "latest",
+    "npm-run-all2": "latest",
+    "oxfmt": "latest",
+    "typescript": "beta",
+    "vite": "beta",
+    "vite-plugin-vue-devtools": "latest",
+    "vue-tsc": "latest"
+  },
+  "engines": {
+    "node": "^24"
+  }
+}
