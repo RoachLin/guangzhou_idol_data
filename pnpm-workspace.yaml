@@ -1,3 +1,6 @@
+onlyBuiltDependencies:
+  - vue-demi
+
 overrides:
   'vue': 'beta'
   '@vue/compiler-core': 'beta'

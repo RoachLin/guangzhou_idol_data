@@ -12,6 +12,7 @@
     "format": "oxfmt src/"
   },
   "dependencies": {
+    "element-plus": "latest",
     "pinia": "latest",
     "vue": "beta",
     "vue-router": "latest"
