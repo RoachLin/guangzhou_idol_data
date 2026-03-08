@@ -12,22 +12,23 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
-    "vue": "^3.5.29",
-    "vue-router": "^5.0.3"
+    "element-plus": "latest",
+    "vue": "beta",
+    "vue-router": "latest"
   },
   "devDependencies": {
-    "@tsconfig/node24": "^24.0.4",
-    "@types/node": "^24.11.0",
-    "@vitejs/plugin-vue": "^6.0.4",
-    "@vue/tsconfig": "^0.8.1",
-    "npm-run-all2": "^8.0.4",
-    "prettier": "3.8.1",
-    "typescript": "~5.9.3",
-    "vite": "beta",
-    "vite-plugin-vue-devtools": "^8.0.6",
-    "vue-tsc": "^3.2.5"
+    "@tsconfig/node24": "latest",
+    "@types/node": "^24",
+    "@vitejs/plugin-vue": "latest",
+    "@vue/tsconfig": "latest",
+    "npm-run-all2": "latest",
+    "prettier": "latest",
+    "typescript": "rc",
+    "vite": "latest",
+    "vite-plugin-vue-devtools": "latest",
+    "vue-tsc": "latest"
   },
   "engines": {
-    "node": "^20.19.0 || >=22.12.0"
+    "node": "^24"
   }
 }

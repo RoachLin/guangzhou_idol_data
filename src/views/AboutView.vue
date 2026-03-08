@@ -1,15 +1,14 @@
+<script setup lang="ts"></script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <h1>关于</h1>
+  <el-divider />
+  <h3>作者：千城忆梦</h3>
+  <h3>源代码：<a href="https://github.com/RoachLin/guangzhou_idol_data"></a></h3>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+a::after {
+  content: attr(href);
 }
 </style>
